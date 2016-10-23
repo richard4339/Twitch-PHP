@@ -8,7 +8,7 @@ class TwitchTest extends PHPUnit_Framework_TestCase
     public function testSuppliedClientID()
     {
 
-        $twitch = new Twitch('ABC123');
+        $twitch = new Twitch('FAKE');
 
         $this->assertNotEmpty($twitch->_clientID);
 
@@ -21,6 +21,13 @@ class TwitchTest extends PHPUnit_Framework_TestCase
 
         $this->assertNotEmpty($twitch->_clientID);
 
+    }
+
+    public function testValidClientID() {
+
+        $this->expectException(\Twitch\Exceptions\ClientIDException::class);
+
+        $twitch = new Twitch('ABC123');
     }
 
 }

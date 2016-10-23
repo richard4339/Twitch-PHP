@@ -1,6 +1,6 @@
 <?php
 
-namespace Twitch;
+namespace Twitch\Exceptions;
 
 
 class ClientIDException extends Exception

@@ -12,6 +12,6 @@
          syntaxCheck="true"
          verbose="true">
     <php>
-        <env name="CLIENTID" value="ABC123"/>
+        <env name="CLIENTID" value="FAKE"/>
     </php>
 </phpunit>

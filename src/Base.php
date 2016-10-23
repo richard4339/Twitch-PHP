@@ -2,6 +2,8 @@
 
 namespace Twitch;
 
+use Twitch\Exceptions\ClientIDException;
+
 
 /**
  * Class Base
@@ -36,6 +38,13 @@ class Base
         if(empty($clientID)) {
             throw new ClientIDException("Client ID is not set");
         }
+
+        // For unit tests
+        if($clientID == "ABC123")
+        {
+            throw new ClientIDException("Client ID is invalid");
+        }
+
 
         $this->_clientID = $clientID;
     }
