@@ -8,3 +8,11 @@
 [![Build Status](https://travis-ci.org/richard4339/Twitch-PHP.svg?branch=master)](https://travis-ci.org/richard4339/Twitch-PHP)
 
 PHP wrapper for the Twitch API
+
+## Requirements
+
+## Installation
+### Using Composer
+```
+composer require richard4339/twitch-php
+```
