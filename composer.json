@@ -1,27 +1,28 @@
 {
-    "name": "richard4339/twitch-php",
-    "type": "library",
-    "description": "PHP wrapper for the Twitch API",
-    "authors": [
-        {
-            "name": "Richard",
-            "email": "richard@mozor.net"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Twitch\\": "src/"
-        },
-      "files": [
-        "src/AbstractResource.class.php",
-        "src/Channel.class.php",
-        "src/ResponseMediator.class.php",
-        "src/Stream.class.php",
-        "src/Twitch.class.php"
-      ]
-    },
-    "require": {
-        "php": ">=5.6",
-        "guzzlehttp/guzzle": "^6.2"
+  "name": "richard4339/twitch-php",
+  "type": "library",
+  "description": "PHP wrapper for the Twitch API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Richard",
+      "email": "richard@mozor.net"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Twitch\\": "src/"
+    },
+    "files": [
+      "src/AbstractResource.class.php",
+      "src/Channel.class.php",
+      "src/ResponseMediator.class.php",
+      "src/Stream.class.php",
+      "src/Twitch.class.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.6",
+    "guzzlehttp/guzzle": "^6.2"
+  }
 }
