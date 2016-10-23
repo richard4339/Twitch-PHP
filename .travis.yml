@@ -7,4 +7,4 @@ php:
 before_script:
 - composer install --dev
 
-script: phpunit --bootstrap tests/bootstrap.php tests/TwitchTest.php -c phpunit.xml
+script: phpunit -c phpunit.xml tests/TwitchTest.php
