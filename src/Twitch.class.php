@@ -22,8 +22,12 @@ class Twitch
      * Twitch constructor.
      * @param $clientID
      */
-    function __construct($clientID)
+    function __construct($clientID = '')
     {
+        if (!isset($clientID)) {
+            $clientID = $_ENV["CLIENTID"];
+        }
+
         $this->_clientID = $clientID;
     }
 
