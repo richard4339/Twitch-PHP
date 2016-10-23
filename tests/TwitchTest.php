@@ -30,4 +30,14 @@ class TwitchTest extends PHPUnit_Framework_TestCase
         $twitch = new Twitch('ABC123');
     }
 
+    public function testGetStreamsNoStreams()
+    {
+
+        $this->expectException(\Twitch\Exceptions\GetException::class);
+
+        $twitch = new Twitch();
+
+        $twitch->getStreams([]);
+    }
+
 }
