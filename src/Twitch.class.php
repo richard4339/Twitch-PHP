@@ -26,7 +26,7 @@ class Twitch
      */
     function __construct($clientID = '')
     {
-        if (!isset($clientID)) {
+        if (empty($clientID)) {
             $clientID = $_ENV["CLIENTID"];
         }
 

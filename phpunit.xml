@@ -1,0 +1,5 @@
+<phpunit>
+    <php>
+        <env name="CLIENTID" value="ABC123"/>
+    </php>
+</phpunit>
