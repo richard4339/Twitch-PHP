@@ -1,5 +1,5 @@
 {
-    "name": "richard4339/Twitch-PHP",
+    "name": "richard4339/twitch-php",
     "type": "library",
     "description": "PHP wrapper for the Twitch API",
     "authors": [
