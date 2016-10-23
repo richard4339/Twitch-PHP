@@ -14,4 +14,9 @@
     <php>
         <env name="CLIENTID" value="FAKE"/>
     </php>
+    <testsuites>
+        <testsuite name="Twitch Class">
+            <file>tests/TwitchTest.php</file>
+        </testsuite>
+    </testsuites>
 </phpunit>
