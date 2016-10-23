@@ -12,14 +12,7 @@
   "autoload": {
     "psr-4": {
       "Twitch\\": "src/"
-    },
-    "files": [
-      "src/AbstractResource.class.php",
-      "src/Channel.class.php",
-      "src/ResponseMediator.class.php",
-      "src/Stream.class.php",
-      "src/Twitch.class.php"
-    ]
+    }
   },
   "require": {
     "php": ">=5.6",
