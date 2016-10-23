@@ -5,6 +5,8 @@ namespace Twitch;
 /**
  * Class Twitch
  * @package Twitch
+ *
+ * @property-read string $_clientID
  */
 class Twitch
 {
@@ -29,6 +31,20 @@ class Twitch
         }
 
         $this->_clientID = $clientID;
+    }
+
+    /**
+     * @param $name
+     * @return string
+     */
+    function __get($name)
+    {
+        switch (strtoupper($name)) {
+            case 'CLIENTID':
+            case '_CLIENTID':
+                return $this->_clientID;
+                break;
+        }
     }
 
     /**
