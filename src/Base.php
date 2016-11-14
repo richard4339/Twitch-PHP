@@ -24,6 +24,11 @@ class Base
     protected $_clientID;
 
     /**
+     * @var string URL for the Twitch API
+     */
+    protected $_apiURL = "'https://api.twitch.tv/kraken/'";
+
+    /**
      * Twitch constructor.
      * Client ID can optionally come from an environmental variable CLIENTID
      * @param $clientID Client ID number supplied by Twitch
@@ -81,7 +86,7 @@ class Base
     protected function getHttpClient()
     {
         if ($this->httpClient === null) {
-            $this->httpClient = new \GuzzleHttp\Client(['base_uri' => 'https://api.twitch.tv/kraken/', 'verify' => false]);
+            $this->httpClient = new \GuzzleHttp\Client(['base_uri' => $this->_apiURL, 'verify' => false]);
         }
 
         return $this->httpClient;
