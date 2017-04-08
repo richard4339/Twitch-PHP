@@ -12,6 +12,7 @@ namespace Twitch;
  * @method int|float|mixed delay()
  * @method string created_at()
  * @method bool is_playlist()
+ * @method Preview preview()
  * @method Channel channel()
  *
  *  (UTC) format YYYY-MM-DD\THH:MM:SSZ
@@ -20,7 +21,8 @@ class Stream extends AbstractResource
 {
 
     protected $casts = [
-        'channel' => Channel::class
+        'channel' => Channel::class,
+        'preview' => Preview::class
     ];
 
     /**
