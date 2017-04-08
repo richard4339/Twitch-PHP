@@ -26,7 +26,7 @@ class Base
     /**
      * @var string URL for the Twitch API
      */
-    protected $_apiURL = "'https://api.twitch.tv/kraken/'";
+    protected $_apiURL = "https://api.twitch.tv/kraken/";
 
     /**
      * Twitch constructor.
