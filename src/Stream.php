@@ -20,6 +20,14 @@ namespace Twitch;
 class Stream extends AbstractResource
 {
 
+    /**
+     * @var string $name Name of the channel
+     */
+    public $name;
+
+    /**
+     * @var array $casts Castable classes included
+     */
     protected $casts = [
         'channel' => Channel::class,
         'preview' => Preview::class
@@ -193,5 +201,15 @@ class Stream extends AbstractResource
     function followers()
     {
         return $this->channel()->followers();
+    }
+
+    /**
+     * Set the name property after making the array for searching
+     */
+    public function postMakeFromArray()
+    {
+        parent::postMakeFromArray();
+
+        $this->name = $this->name();
     }
 }

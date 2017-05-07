@@ -5,6 +5,8 @@ namespace Twitch;
 /**
  * Class AbstractResource
  * @package Twitch
+ *
+ * @method postMakeFromArray()
  */
 abstract class AbstractResource
 {
@@ -13,6 +15,9 @@ abstract class AbstractResource
         'channel' => Channel::class
     ];
 
+    /**
+     * AbstractResource constructor.
+     */
     function __construct()
     {
 
@@ -28,9 +33,15 @@ abstract class AbstractResource
 
         $instance->parseProperties($properties);
 
+        // Callback-style function to perform actions after all properties have been passed
+        $instance->postMakeFromArray();
+
         return $instance;
     }
 
+    /**
+     * @param array $properties
+     */
     protected function parseProperties(array $properties)
     {
         foreach ($properties as $key => $value) {
@@ -38,6 +49,11 @@ abstract class AbstractResource
         }
     }
 
+    /**
+     * @param mixed $key
+     * @param mixed $value
+     * @return mixed
+     */
     protected function parse($key, $value)
     {
         if ($this->isCastable($key)) {
@@ -77,9 +93,18 @@ abstract class AbstractResource
     {
         $this->data[$key] = $value;
 
+        // Automatically set the class variable if it exists
+        if (property_exists(static::class, $key)) {
+            $this->$key = $value;
+        }
+
         return $this;
     }
 
+    /**
+     * @param string|null $key
+     * @return array|mixed|null
+     */
     protected function get($key = null)
     {
         if($key === null)
@@ -90,6 +115,11 @@ abstract class AbstractResource
         return isset($this->data[$key]) ? $this->data[$key] : null;
     }
 
+    /**
+     * @param string $name
+     * @param array $arguments
+     * @return array|mixed|null
+     */
     public function __call($name, $arguments)
     {
         if($data = $this->get($name))
