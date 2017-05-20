@@ -6,6 +6,9 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Client;
 
+/**
+ * Class TwitchTest
+ */
 class TwitchTest extends PHPUnit_Framework_TestCase
 {
 

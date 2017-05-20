@@ -13,7 +13,7 @@ use GuzzleHttp\Client;
  * @property-read string $_clientID
  * @property-read int $_apiVersion
  * @see https://dev.twitch.tv/docs
- * @version 1.0.0
+ * @version 1.0.2
  */
 class Base
 {
