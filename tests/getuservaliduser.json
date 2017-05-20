@@ -1,0 +1,15 @@
+{
+  "_total": 1,
+  "users": [
+    {
+      "display_name": "MisterRogers",
+      "_id": "148018215",
+      "name": "misterrogers",
+      "type": "user",
+      "bio": "Mister Rogers Neighborhood debuted in 1968 and aired on PBS for decades. The show starred the legendary Fred Rogers, who spoke directly to viewers, performed songs, created arts and crafts for viewers, and took them on tours of real-life locations.",
+      "created_at": "2017-02-17T18:58:51.345425Z",
+      "updated_at": "2017-05-20T17:06:15.428864Z",
+      "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/misterrogers-profile_image-d3224e8f0fe21f65-300x300.png"
+    }
+  ]
+}

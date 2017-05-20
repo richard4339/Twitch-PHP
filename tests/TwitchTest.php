@@ -1,9 +1,69 @@
 <?php
 
 use Twitch\Twitch;
+use GuzzleHttp\Psr7\Response;
+use GuzzleHttp\Handler\MockHandler;
+use GuzzleHttp\HandlerStack;
+use GuzzleHttp\Client;
 
 class TwitchTest extends PHPUnit_Framework_TestCase
 {
+
+    const TEST_STREAM_ID = 148018215;
+    const TEST_USER = "misterrogers";
+
+    public function testStreamNameWithValidStream()
+    {
+
+        $twitch = $this->createTwitch(__DIR__ . '/getstreamsv5valid.json');
+
+        $streams = $twitch->getStreams([self::TEST_STREAM_ID]);
+
+        $this->assertEquals("Mister Rogers' Neighborhood", $streams[0]->game());
+
+    }
+
+    public function testNoStreamsOnline()
+    {
+
+        $twitch = $this->createTwitch(__DIR__ . '/getstreamsv5nostreams.json');
+
+        $streams = $twitch->getStreams([self::TEST_STREAM_ID]);
+
+        $this->assertEquals(0, count($streams));
+
+    }
+
+    public function testGetUserGetID()
+    {
+
+        $twitch = $this->createTwitch(__DIR__ . '/getuservaliduser.json');
+
+        $user = $twitch->getUser([self::TEST_USER]);
+
+        $this->assertEquals((string)self::TEST_STREAM_ID, $user->_id());
+
+    }
+
+    /**
+     * @param $responseFile
+     * @return Twitch
+     */
+    public function createTwitch($responseFile) {
+
+
+        $mock = new MockHandler([
+            new Response(200, ['Content-Type' => 'application/json'], file_get_contents($responseFile))
+        ]);
+
+        $handler = HandlerStack::create($mock);
+        $client = new Client(['handler' => $handler]);
+
+        $twitch = new Twitch();
+        $twitch->httpClient = $client;
+
+        return $twitch;
+    }
 
     public function testSuppliedClientID()
     {

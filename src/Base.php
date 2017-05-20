@@ -4,7 +4,7 @@ namespace Twitch;
 
 use Twitch\Exceptions\APIVersionException;
 use Twitch\Exceptions\ClientIDException;
-
+use GuzzleHttp\Client;
 
 /**
  * Class Base
@@ -18,9 +18,9 @@ class Base
 {
 
     /**
-     * @var \GuzzleHttp\Client $httpClient
+     * @var Client $httpClient
      */
-    protected $httpClient;
+    public $httpClient;
 
     /**
      * @var string Twitch Client ID
@@ -109,12 +109,12 @@ class Base
     }
 
     /**
-     * @return \GuzzleHttp\Client
+     * @return Client
      */
     protected function getHttpClient()
     {
         if ($this->httpClient === null) {
-            $this->httpClient = new \GuzzleHttp\Client(['base_uri' => $this->_apiURL, 'verify' => false]);
+            $this->httpClient = new Client(['base_uri' => $this->_apiURL, 'verify' => false]);
         }
 
         return $this->httpClient;
