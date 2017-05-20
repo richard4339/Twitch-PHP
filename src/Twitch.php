@@ -50,4 +50,20 @@ class Twitch extends BaseTwitch
         return $this->getUsersV5($users);
     }
 
+    /**
+     * Get a User object
+     * Valid on API Version 5
+     * @param string $user User's ID number
+     * @return User
+     * @throws APIVersionException
+     * @throws GetException
+     */
+    function getUserByID($user) {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getUserByID() [which calls getUserByIdV5()] is only valid on API Version 5");
+        }
+
+        return $this->getUserByIDV5($user);
+    }
+
 }

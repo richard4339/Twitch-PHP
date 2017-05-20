@@ -113,4 +113,28 @@ class BaseTwitch extends Base
         }, $response['users']);
     }
 
+    /**
+     * Get a User object
+     * Valid on API Version 5
+     * @param string $user User's ID number
+     * @return User
+     * @throws APIVersionException
+     * @throws GetException
+     */
+    function getUserByIDV5($user) {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getUserByIDV5() is only valid on API Version 5");
+        }
+
+        if(empty($user)) {
+            throw new GetException('No user provided');
+        }
+
+        $url = $this->_buildRequestString(sprintf('users/%s', $user));
+
+        $response = $this->request($url);
+
+        return User::makeFromArray($response);
+    }
+
 }
