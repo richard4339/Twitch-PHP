@@ -35,9 +35,41 @@ class TwitchTest extends PHPUnit_Framework_TestCase
 
         $this->expectException(\Twitch\Exceptions\GetException::class);
 
-        $twitch = new Twitch();
+        $twitch = new Twitch('FAKE', 3);
 
         $twitch->getStreams([]);
+    }
+
+    public function testInvalidAPIVersion1()
+    {
+
+        $this->expectException(\Twitch\Exceptions\APIVersionException::class);
+
+        $twitch = new Twitch('FAKE', 1);
+    }
+
+    public function testInvalidAPIVersion2()
+    {
+
+        $this->expectException(\Twitch\Exceptions\APIVersionException::class);
+
+        $twitch = new Twitch('FAKE', 2);
+    }
+
+    public function testInvalidAPIVersion4()
+    {
+
+        $this->expectException(\Twitch\Exceptions\APIVersionException::class);
+
+        $twitch = new Twitch('FAKE', 4);
+    }
+
+    public function testInvalidAPIVersion6()
+    {
+
+        $this->expectException(\Twitch\Exceptions\APIVersionException::class);
+
+        $twitch = new Twitch('FAKE', 6);
     }
 
 }

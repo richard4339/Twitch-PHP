@@ -1,6 +1,8 @@
 <?php
 
-namespace Twitch;
+namespace Twitch\Object;
+
+use Twitch\AbstractResource;
 
 /**
  * Class Preview

@@ -1,6 +1,8 @@
 <?php
 
-namespace Twitch;
+namespace Twitch\Object;
+
+use Twitch\AbstractResource;
 
 /**
  * Class Stream
@@ -38,7 +40,7 @@ class Stream extends AbstractResource
      */
     function streamStartedAt()
     {
-        return new \DateTime($this->created_at(), new \DateTimeZone('GMT'));
+        return new \DateTime($this->created_at(), new \DateTimeZone(self::TIMEZONE));
     }
 
     // Channel functions

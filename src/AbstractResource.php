@@ -2,6 +2,8 @@
 
 namespace Twitch;
 
+use Twitch\Object\Channel;
+
 /**
  * Class AbstractResource
  * @package Twitch
@@ -14,6 +16,8 @@ abstract class AbstractResource
     protected $casts = [
         'channel' => Channel::class
     ];
+
+    const TIMEZONE = 'GMT';
 
     /**
      * AbstractResource constructor.

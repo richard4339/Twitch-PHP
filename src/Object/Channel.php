@@ -1,6 +1,8 @@
 <?php
 
-namespace Twitch;
+namespace Twitch\Object;
+
+use Twitch\AbstractResource;
 
 /**
  * Class Channel
@@ -35,7 +37,7 @@ class Channel extends AbstractResource
      */
     function updatedAt()
     {
-        return new \DateTime($this->updated_at(), new \DateTimeZone('GMT'));
+        return new \DateTime($this->updated_at(), new \DateTimeZone(self::TIMEZONE));
     }
 
     /**
@@ -43,6 +45,6 @@ class Channel extends AbstractResource
      */
     function createdAt()
     {
-        return new \DateTime($this->created_at(), new \DateTimeZone('GMT'));
+        return new \DateTime($this->created_at(), new \DateTimeZone(self::TIMEZONE));
     }
 }
