@@ -9,11 +9,14 @@
 
 PHP wrapper for the Twitch API
 
-## Requirements
-Uses the GuzzleHTTP package
-
 ## Installation
 ### Using Composer
 ```
 composer require richard4339/twitch-php
 ```
+
+## Notes
+Defaults to version 5 of the Twitch API which has breaking changes from version 3 when retrieving streams. As a result, there are breaking changes when upgrading to version 1 of this package.
+
+## Requirements
+Uses the GuzzleHTTP package

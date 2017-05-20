@@ -17,13 +17,44 @@ class Twitch extends Base
 
     /**
      * Gets a an array of Stream objects
+     * Valid on API Version 5
+     * @param string[] $param An array of streamer ID numbers
+     * @return Stream[]
+     * @throws GetException
+     * @throws APIVersionException
+     * @since 1.0.0
+     */
+    function getStreams($param)
+    {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getStreams() is only valid on API Version 5");
+        }
+
+        if(count($param) < 1) {
+            throw new GetException('No streams provided');
+        }
+
+        $params = implode(',', $param);
+
+        $url = $this->_buildRequestString('streams', ['channel' => $params]);
+
+        $response = $this->request($url);
+
+        return array_map(function ($item) {
+            return Stream::makeFromArray($item);
+        }, $response['streams']);
+    }
+
+    /**
+     * Gets a an array of Stream objects
      * Valid on API Version 3
      * @param string[] $param An array of streamer names
      * @return Stream[]
      * @throws GetException
      * @throws APIVersionException
+     * @deprecated 1.0.0
      */
-    function getStreams($param)
+    function getStreamsv3($param)
     {
         if($this->_apiVersion != 3) {
             throw new APIVersionException("getStreams() is only valid on API Version 3");
