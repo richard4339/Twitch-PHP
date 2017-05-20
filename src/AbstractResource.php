@@ -13,9 +13,7 @@ use Twitch\Object\Channel;
 abstract class AbstractResource
 {
     protected $data = [];
-    protected $casts = [
-        'channel' => Channel::class
-    ];
+    protected $casts = [];
 
     const TIMEZONE = 'GMT';
 

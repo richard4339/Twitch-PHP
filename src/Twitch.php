@@ -5,6 +5,7 @@ namespace Twitch;
 use Twitch\Exceptions\APIVersionException;
 use Twitch\Exceptions\GetException;
 use Twitch\Object\Stream;
+use Twitch\Object\User;
 
 /**
  * Class Twitch
@@ -41,6 +42,34 @@ class Twitch extends Base
         return array_map(function ($item) {
             return Stream::makeFromArray($item);
         }, $response['streams']);
+    }
+
+    /**
+     * Gets the User object for a single user
+     * Valid on API Version 5
+     * @param $username
+     * @return User
+     * @throws APIVersionException
+     * @throws GetException
+     */
+    function getUser($username) {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getUser() is only valid on API Version 5");
+        }
+
+        if(empty($username)) {
+            throw new GetException('No user provided');
+        }
+
+        $url = $this->_buildRequestString('users', ['login' => $username]);
+
+        $response = $this->request($url);
+
+        $users = array_map(function ($item) {
+            return User::makeFromArray($item);
+        }, $response['users']);
+
+        return array_pop($users);
     }
 
     /**
