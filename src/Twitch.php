@@ -14,17 +14,29 @@ use Twitch\Object\User;
  */
 class Twitch extends Base
 {
+    /**
+     * Gets a an array of Stream objects
+     * Valid on API Version 5
+     * This function will always use the latest API version in the event of future breaking changes
+     * @param string[] $param An array of streamer ID numbers
+     * @return Stream[]
+     * @throws GetException
+     * @throws APIVersionException
+     */
+    function getStreams($param) {
+        return $this->getStreamsV5($param);
+    }
 
     /**
      * Gets a an array of Stream objects
      * Valid on API Version 5
-     * @param string[] $param An array of streamer ID numbers
+     * @param string[] $param An array of streamer ID numbers. Twitch defines these as numbers but says to treat them as strings.
      * @return Stream[]
      * @throws GetException
      * @throws APIVersionException
      * @since 1.0.0
      */
-    function getStreams($param)
+    function getStreamsV5($param)
     {
         if($this->_apiVersion != 5) {
             throw new APIVersionException("getStreams() is only valid on API Version 5");
@@ -54,7 +66,7 @@ class Twitch extends Base
      * @throws APIVersionException
      * @deprecated 1.0.0
      */
-    function getStreamsv3($param)
+    function getStreamsV3($param)
     {
         if($this->_apiVersion != 3) {
             throw new APIVersionException("getStreams() is only valid on API Version 3");
@@ -114,7 +126,7 @@ class Twitch extends Base
      * @todo Implement this method, it is currently not hitting the correct endpoint
      * @ignore Method not yet implemented and simply returns getStreams()
      */
-    function getStreamsFollowed($param)
+    function getStreamsFollowedV3($param)
     {
         return $this->getStreams($param);
     }
