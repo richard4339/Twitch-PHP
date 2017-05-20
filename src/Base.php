@@ -2,6 +2,7 @@
 
 namespace Twitch;
 
+use GuzzleHttp\Exception\ClientException;
 use Twitch\Exceptions\APIVersionException;
 use Twitch\Exceptions\ClientIDException;
 use GuzzleHttp\Client;
@@ -63,12 +64,6 @@ class Base
             throw new ClientIDException("Client ID is not set");
         }
 
-        // For unit tests
-        if($clientID == "ABC123")
-        {
-            throw new ClientIDException("Client ID is invalid");
-        }
-
         if(!$this->_isValidAPIVersion($apiVersion)) {
             throw new APIVersionException(sprintf("API Version %d is not valid.", $apiVersion));
         }
@@ -97,15 +92,34 @@ class Base
     }
 
     /**
-     * @param $url
+     * @param string $url
      * @return array
+     * @throws ClientIDException
+     * @throws ClientException
      */
     protected function request($url)
     {
-        $response = $this->getHttpClient()
-            ->request('GET', $url);
+        try {
+            $reponse = $this->getHttpClient()
+                ->request('GET', $url);
 
-        return ResponseMediator::convertResponseToArray($response);
+            return ResponseMediator::convertResponseToArray($reponse);
+        } catch (ClientException $x) {
+            switch($x->getCode()) {
+                case 400:
+                    $response = $x->getResponse();
+                    $body = ResponseMediator::convertResponseToArray($response);
+                    if($body['message'] == 'Invalid client id specified') {
+                        throw new ClientIDException('Invalid client id specified');
+                    } else {
+                        throw $x;
+                    }
+                    break;
+                default:
+                    throw $x;
+                    break;
+            }
+        }
     }
 
     /**
