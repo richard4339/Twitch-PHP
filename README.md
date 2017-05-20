@@ -10,6 +10,7 @@
 PHP wrapper for the Twitch API
 
 ## Requirements
+Uses the GuzzleHTTP package
 
 ## Installation
 ### Using Composer
