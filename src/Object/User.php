@@ -7,7 +7,6 @@ use Twitch\AbstractResource;
 /**
  * Class User
  * @package Twitch
- * @method string _id()
  * @method string name()
  * @method string display_name()
  * @method string type()
@@ -20,4 +19,13 @@ use Twitch\AbstractResource;
  */
 class User extends AbstractResource
 {
+
+    /**
+     * Returns the field _id
+     * @return string
+     */
+    function id()
+    {
+        return $this->_id();
+    }
 }
