@@ -9,7 +9,7 @@ use Twitch\AbstractResource;
  *
  * @package Twitch
  *
- * @version 1.0.4 Fields as of May 20, 2017
+ * @version 1.0.6 Fields as of May 20, 2017
  *
  * @method bool mature()
  * @method string status()

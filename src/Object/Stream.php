@@ -9,7 +9,7 @@ use Twitch\AbstractResource;
  *
  * @package Twitch
  *
- * @version 1.0.4 Fields as of May 20, 2017
+ * @version 1.0.6 Fields as of May 20, 2017
  *
  * @method int _id()
  * @method string game()
@@ -21,7 +21,7 @@ use Twitch\AbstractResource;
  * @method int|float|mixed delay()
  * @method string created_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
  * @method bool is_playlist()
- * @method string string_type()
+ * @method string stream_type()
  * @method Preview preview()
  * @method Channel channel()
  */

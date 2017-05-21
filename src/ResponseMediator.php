@@ -10,7 +10,7 @@ use GuzzleHttp\Psr7\Response;
  *
  * @package Twitch
  *
- * @version 1.0.4
+ * @version 1.0.6
  */
 class ResponseMediator
 {
