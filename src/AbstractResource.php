@@ -6,7 +6,10 @@ use Twitch\Object\Channel;
 
 /**
  * Class AbstractResource
+ *
  * @package Twitch
+ *
+ * @version 1.0.4
  *
  * @method postMakeFromArray()
  */

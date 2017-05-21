@@ -6,9 +6,12 @@ use Twitch\AbstractResource;
 
 /**
  * Class Channel
+ *
  * @package Twitch
+ *
+ * @version 1.0.4 Fields as of May 20, 2017
+ *
  * @method bool mature()
- * @method bool partner()
  * @method string status()
  * @method string broadcaster_language()
  * @method string display_name()
@@ -16,9 +19,9 @@ use Twitch\AbstractResource;
  * @method string language()
  * @method int _id()
  * @method string name()
- * @method string created_at()
- * @method string updated_at()
- * @method mixed delay()
+ * @method string created_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
+ * @method string updated_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
+ * @method bool partner()
  * @method string logo()
  * @method bool|mixed banner()
  * @method string video_banner()
@@ -28,6 +31,9 @@ use Twitch\AbstractResource;
  * @method string url()
  * @method int views()
  * @method int followers()
+ * @method string broadcast_type()
+ * @method string description()
+ *
  */
 class Channel extends AbstractResource
 {

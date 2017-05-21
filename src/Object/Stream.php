@@ -6,18 +6,24 @@ use Twitch\AbstractResource;
 
 /**
  * Class Stream
+ *
  * @package Twitch
+ *
+ * @version 1.0.4 Fields as of May 20, 2017
+ *
  * @method int _id()
  * @method string game()
+ * @method string broadcast_platform()
+ * @method string community_id()
  * @method int viewers()
+ * @method int video_height()
  * @method float average_fps()
  * @method int|float|mixed delay()
- * @method string created_at()
+ * @method string created_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
  * @method bool is_playlist()
+ * @method string string_type()
  * @method Preview preview()
  * @method Channel channel()
- *
- *  (UTC) format YYYY-MM-DD\THH:MM:SSZ
  */
 class Stream extends AbstractResource
 {

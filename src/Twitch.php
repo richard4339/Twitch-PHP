@@ -13,7 +13,8 @@ use Twitch\Object\User;
  * API specific functions are in Twitch\BaseTwitch for organization
  *
  * @package Twitch
- * @version 1.0.2
+ *
+ * @version 1.0.4
  */
 class Twitch extends BaseTwitch
 {

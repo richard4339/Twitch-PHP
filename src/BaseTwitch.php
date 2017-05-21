@@ -10,7 +10,7 @@ use Twitch\Object\User;
 /**
  * Class BaseTwitch
  * @package Twitch
- * @version 1.0.2
+ * @version 1.0.4
  */
 class BaseTwitch extends Base
 {

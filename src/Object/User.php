@@ -6,16 +6,20 @@ use Twitch\AbstractResource;
 
 /**
  * Class User
+ *
  * @package Twitch
+ *
+ * @version 1.0.4 Fields as of May 20, 2017
+ *
  * @method string name()
  * @method string display_name()
  * @method string type()
  * @method string bio()
- * @method \DateTime created_at()
- * @method \DateTime updated_at()
+ * @method \DateTime created_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
+ * @method \DateTime updated_at() (UTC) format YYYY-MM-DD\THH:MM:SSZ
  * @method string logo()
  *
- *  (UTC) format YYYY-MM-DD\THH:MM:SSZ
+ * @since 1.0.0
  */
 class User extends AbstractResource
 {
@@ -26,6 +30,6 @@ class User extends AbstractResource
      */
     function id()
     {
-        return $this->_id();
+        return $this->get('_id');
     }
 }
