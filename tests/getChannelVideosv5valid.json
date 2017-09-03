@@ -1,0 +1,1241 @@
+{
+  "_total": 191,
+  "videos": [
+    {
+      "title": "#ForThePuppies Last Chance Beta! !Clan to Join",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26148026624,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 13,
+      "url": "https://www.twitch.tv/videos/171213360",
+      "language": "en",
+      "created_at": "2017-08-31T17:40:28Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-31T17:40:28Z",
+      "_id": "v171213360",
+      "recorded_at": "2017-08-31T17:40:28Z",
+      "game": "Destiny",
+      "length": 12712,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/storyboards/171213360-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/206110b86cc4e04d5c36_briarrabbit_26148026624_702921855/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 29.952888629475247,
+        "360p30": 29.952888629475247,
+        "480p30": 29.952888629475247,
+        "720p30": 29.952888629475247,
+        "720p60": 59.650342774209534,
+        "chunked": 59.650342774209534
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p30": "1280x720",
+        "720p60": "1280x720",
+        "chunked": "1920x1080"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "6 Days! Last Chance Beta! !Clan to Join",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26147828128,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 1,
+      "url": "https://www.twitch.tv/videos/171206944",
+      "language": "en",
+      "created_at": "2017-08-31T17:12:56Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-31T17:12:56Z",
+      "_id": "v171206944",
+      "recorded_at": "2017-08-31T17:12:56Z",
+      "game": "Destiny 2",
+      "length": 1641,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/storyboards/171206944-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/99e56c04fc5aa9b288fd_briarrabbit_26147828128_702909449/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.025927494416905,
+        "360p30": 30.025927494416905,
+        "480p30": 30.025927494416905,
+        "720p30": 30.025927494416905,
+        "720p60": 59.998232908723644,
+        "chunked": 59.998232908723644
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p30": "1280x720",
+        "720p60": "1280x720",
+        "chunked": "1920x1080"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "6 Days! Last Chance Beta! !Clan to Join",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26147821680,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 0,
+      "url": "https://www.twitch.tv/videos/171206735",
+      "language": "en",
+      "created_at": "2017-08-31T17:12:06Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-31T17:12:06Z",
+      "_id": "v171206735",
+      "recorded_at": "2017-08-31T17:12:05Z",
+      "game": "Destiny 2",
+      "length": 20,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/storyboards/171206735-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/c2831e1985a94bf47943_briarrabbit_26147821680_702909046/thumb/thumb0-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.028815530054093,
+        "360p30": 30.028815530054093,
+        "480p30": 30.028815530054093,
+        "720p60": 60.04932803140887,
+        "chunked": 59.89867885169365
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "7 Days Left!",
+      "description": "",
+      "description_html": "",
+      "broadcast_id": 26141287008,
+      "broadcast_type": "highlight",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 1,
+      "url": "https://www.twitch.tv/videos/171178617",
+      "language": "en",
+      "created_at": "2017-08-31T14:47:59Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-31T14:47:59Z",
+      "_id": "v171178617",
+      "recorded_at": "2017-08-30T17:17:50Z",
+      "game": "Destiny 2",
+      "length": 10114,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/storyboards/171178617-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629//thumb/thumb171178617-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.004997669237344,
+        "360p30": 30.00519540095791,
+        "480p30": 30.00519540095791,
+        "720p30": 30.00519540095791,
+        "720p60": 59.97676261184921,
+        "chunked": 59.97676261184921
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p30": "1280x720",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "7 Days! More Destiny 2 PC Beta! !Clan to Join",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26142698288,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 4,
+      "url": "https://www.twitch.tv/videos/171045889",
+      "language": "en",
+      "created_at": "2017-08-30T20:17:07Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-30T20:17:07Z",
+      "_id": "v171045889",
+      "recorded_at": "2017-08-30T20:17:07Z",
+      "game": "Destiny 2",
+      "length": 177,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/919a519bee21324c30d9_briarrabbit_26142698288_702588834/storyboards/171045889-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/919a519bee21324c30d9_briarrabbit_26142698288_702588834/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 29.985809532390306,
+        "360p30": 29.985809532390306,
+        "480p30": 29.985809532390306,
+        "720p30": 29.985809532390306,
+        "720p60": 59.99414361654203,
+        "chunked": 60.005405892422736
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p30": "1280x720",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "7 Days! More Destiny 2 PC Beta! !Clan to Join",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26141287008,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 7,
+      "url": "https://www.twitch.tv/videos/171001693",
+      "language": "en",
+      "created_at": "2017-08-30T17:17:50Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-30T17:17:50Z",
+      "_id": "v171001693",
+      "recorded_at": "2017-08-30T17:17:50Z",
+      "game": "Destiny 2",
+      "length": 10114,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/storyboards/171001693-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/bf2a6380718696d2679c_briarrabbit_26141287008_702500629/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.004997669237344,
+        "360p30": 30.00519540095791,
+        "480p30": 30.00519540095791,
+        "720p30": 30.00519540095791,
+        "720p60": 59.97676261184921,
+        "chunked": 59.97676261184921
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p30": "1280x720",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "8 Days! More Destiny 2 PC Beta!",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26133466032,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 5,
+      "url": "https://www.twitch.tv/videos/170745363",
+      "language": "en",
+      "created_at": "2017-08-29T17:43:27Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-29T17:43:27Z",
+      "_id": "v170745363",
+      "recorded_at": "2017-08-29T17:43:27Z",
+      "game": "Destiny 2",
+      "length": 16276,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/storyboards/170745363-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/870f6c696ac41f873dbe_briarrabbit_26133466032_702011818/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.000004915072463,
+        "360p30": 30.000004915072463,
+        "480p30": 30.000004915072463,
+        "720p60": 60.00000368628509,
+        "chunked": 59.99993610511789
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "Beta Hype!",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26125037856,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 19,
+      "url": "https://www.twitch.tv/videos/170472113",
+      "language": "en",
+      "created_at": "2017-08-28T16:52:38Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-28T16:52:38Z",
+      "_id": "v170472113",
+      "recorded_at": "2017-08-28T16:52:38Z",
+      "game": "Destiny 2",
+      "length": 23541,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/storyboards/170472113-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/a46fa1d6ac7ac4421f47_briarrabbit_26125037856_701485057/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 29.991599806721215,
+        "360p30": 29.991599806721215,
+        "480p30": 29.991599806721215,
+        "720p60": 59.980814071119795,
+        "chunked": 59.98079807032586
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p60": "1280x720",
+        "chunked": "1280x720"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "Revolver LIVE Ep. 6 Just The Two Of Us",
+      "description": "",
+      "description_html": "",
+      "broadcast_id": 26119854448,
+      "broadcast_type": "highlight",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 17,
+      "url": "https://www.twitch.tv/videos/170331046",
+      "language": "en",
+      "created_at": "2017-08-27T23:37:36Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-27T23:37:36Z",
+      "_id": "v170331046",
+      "recorded_at": "2017-08-27T22:05:37Z",
+      "game": "Talk Shows",
+      "length": 5331,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/storyboards/170331046-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094//thumb/thumb170331046-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.00014745533452,
+        "360p30": 30.00014745533452,
+        "480p30": 30.00014745533452,
+        "720p60": 60.00003956042612,
+        "chunked": 59.99963677668437
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p60": "1280x720",
+        "chunked": "1920x1080"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    },
+    {
+      "title": "Revolver Ep. 6 Just The Two Of Us",
+      "description": null,
+      "description_html": null,
+      "broadcast_id": 26119854448,
+      "broadcast_type": "archive",
+      "status": "recorded",
+      "tag_list": "",
+      "views": 85,
+      "url": "https://www.twitch.tv/videos/170311418",
+      "language": "en",
+      "created_at": "2017-08-27T22:01:44Z",
+      "viewable": "public",
+      "viewable_at": null,
+      "published_at": "2017-08-27T22:01:44Z",
+      "_id": "v170311418",
+      "recorded_at": "2017-08-27T22:01:44Z",
+      "game": "Talk Shows",
+      "length": 5561,
+      "preview": {
+        "small": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-80x45.jpg",
+        "medium": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-320x180.jpg",
+        "large": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-640x360.jpg",
+        "template": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-{width}x{height}.jpg"
+      },
+      "animated_preview_url": "https://vod-storyboards.twitch.tv/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/storyboards/170311418-strip-0.jpg",
+      "thumbnails": {
+        "small": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb1-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb2-80x45.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb3-80x45.jpg"
+          }
+        ],
+        "medium": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb1-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb2-320x180.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb3-320x180.jpg"
+          }
+        ],
+        "large": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb1-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb2-640x360.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb3-640x360.jpg"
+          }
+        ],
+        "template": [
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb0-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb1-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb2-{width}x{height}.jpg"
+          },
+          {
+            "type": "generated",
+            "url": "https://static-cdn.jtvnw.net/s3_vods/7d68ccca1a16c3e02391_briarrabbit_26119854448_701161094/thumb/thumb3-{width}x{height}.jpg"
+          }
+        ]
+      },
+      "fps": {
+        "160p30": 30.00014745533452,
+        "360p30": 30.00014745533452,
+        "480p30": 30.00014745533452,
+        "720p60": 60.00003956042612,
+        "chunked": 59.99963677668437
+      },
+      "resolutions": {
+        "160p30": "284x160",
+        "360p30": "640x360",
+        "480p30": "852x480",
+        "720p60": "1280x720",
+        "chunked": "1920x1080"
+      },
+      "channel": {
+        "mature": false,
+        "status": "#ForThePuppies !Clan to Join",
+        "broadcaster_language": "en",
+        "display_name": "BriarRabbit",
+        "game": "Destiny",
+        "language": "en",
+        "_id": 39211629,
+        "name": "briarrabbit",
+        "created_at": "2013-01-10T18:33:13.795155Z",
+        "updated_at": "2017-09-03T11:30:09.533699Z",
+        "partner": false,
+        "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_image-ea66fe88409679d4-300x300.png",
+        "video_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-channel_offline_image-b16bf0cef5eb3567-1920x1080.jpeg",
+        "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/briarrabbit-profile_banner-85f3303ad30c43d7-480.jpeg",
+        "profile_banner_background_color": "",
+        "url": "https://www.twitch.tv/briarrabbit",
+        "views": 134061,
+        "followers": 19179,
+        "broadcaster_type": "",
+        "description": "Briar Rabbit is a Youtuber, Podcaster, Streamer, and Host of the Destiny Community Podcast. Stick around for laughs, beers, and beards! Revolver."
+      }
+    }
+  ]
+}

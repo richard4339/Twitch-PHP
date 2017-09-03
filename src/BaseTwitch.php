@@ -6,6 +6,7 @@ use Twitch\Exceptions\APIVersionException;
 use Twitch\Exceptions\GetException;
 use Twitch\Object\Stream;
 use Twitch\Object\User;
+use Twitch\Object\Video;
 
 /**
  * Class BaseTwitch
@@ -135,6 +136,76 @@ class BaseTwitch extends Base
         $response = $this->request($url);
 
         return User::makeFromArray($response);
+    }
+
+    /**
+     * Get an array of Video objects
+     *
+     * @param int $channelID
+     * @param int $limit
+     * @param int $offset
+     * @param string $broadcastType
+     * @param string $language
+     * @param null $sort
+     * @return Video[]
+     * @throws APIVersionException
+     * @throws GetException
+     *
+     * @todo Add support for language and sort options
+     */
+    function getChannelVideosV5($channelID, $limit = null, $offset = null, $broadcastType = null, $language = null, $sort = null) {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getChannelVideosV5() is only valid on API Version 5");
+        }
+
+        if(empty($channelID)) {
+            throw new GetException('No channel ID provided');
+        }
+
+        if(!is_integer($channelID)) {
+            throw new GetException('Provided channel ID is not valid');
+        }
+
+        $params = array();
+
+        if(!empty($broadcastType)) {
+            if(!is_array($broadcastType)) {
+                $broadcastType = array($broadcastType);
+            }
+
+            // archive, highlight, upload
+            $broadcastTypes = array();
+            if(in_array('archive', $broadcastType)) {
+                $broadcastTypes[] = 'archive';
+            }
+            if(in_array('highlight', $broadcastType)) {
+                $broadcastTypes[] = 'highlight';
+            }
+            if(in_array('upload', $broadcastType)) {
+                $broadcastTypes[] = 'upload';
+            }
+            $params['broadcast_type'] = implode(',', $broadcastTypes);
+
+        }
+
+        if(!empty($limit) && is_integer($limit) && $limit >= 0) {
+            if($limit > 100) {
+                $limit = 100;
+            }
+            $params['limit'] = $limit;
+        }
+
+        if(!empty($offset) && is_integer($offset) && $offset >= 0) {
+            $params['offset'] = $offset;
+        }
+
+        $url = $this->_buildRequestString(sprintf('channels/%d/videos', $channelID), $params);
+
+        $response = $this->request($url);
+
+        return array_map(function ($item) {
+            return Video::makeFromArray($item);
+        }, $response['videos']);
     }
 
 }

@@ -67,4 +67,25 @@ class Twitch extends BaseTwitch
         return $this->getUserByIDV5($user);
     }
 
+    /**
+     * Get an array of Video objects
+     * Valid on API Version 5
+     * This function will always use the latest API version in the event of future breaking changes
+     * @param $channelID
+     * @param null $limit
+     * @param null $offset
+     * @param null $broadcastType
+     * @param null $language
+     * @param null $sort
+     * @return static
+     * @throws APIVersionException
+     */
+    function getChannelVideos($channelID, $limit = null, $offset = null, $broadcastType = null, $language = null, $sort = null) {
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getChannelVideos() [which calls getChannelVideosV5()] is only valid on API Version 5");
+        }
+
+        return $this->getChannelVideosV5($channelID, $limit, $offset, $broadcastType, $language, $sort);
+    }
+
 }
