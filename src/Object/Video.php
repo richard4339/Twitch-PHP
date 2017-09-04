@@ -29,9 +29,19 @@ use Twitch\AbstractResource;
  * @property string $recorded_at (UTC) format YYYY-MM-DD\THH:MM:SSZ
  * @property string $game
  * @property int $length
+ * @method Channel channel()
+ * @method Preview preview()
  */
 class Video extends AbstractResource
 {
+
+    /**
+     * @var array $casts Castable classes included
+     */
+    protected $casts = [
+        'channel' => Channel::class,
+        'preview' => Preview::class
+    ];
 
     /**
      * @return \DateTime
