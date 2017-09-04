@@ -56,9 +56,9 @@ class TwitchTest extends PHPUnit_Framework_TestCase
     {
         $twitch = $this->createTwitch(__DIR__ . '/getuservaliduser.json');
 
-        $user = $twitch->getUser([self::TEST_USER]);
+        $user = $twitch->getUsers([self::TEST_USER]);
 
-        $this->assertEquals((string)self::TEST_STREAM_ID, $user->_id());
+        $this->assertEquals((string)self::TEST_STREAM_ID, $user[0]->id());
     }
 
     /**
