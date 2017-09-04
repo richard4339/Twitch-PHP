@@ -19,4 +19,5 @@ composer require richard4339/twitch-php
 Defaults to version 5 of the Twitch API which has breaking changes from version 3 when retrieving streams. As a result, there are breaking changes when upgrading to version 1 of this package.
 
 ## Requirements
-Uses the GuzzleHTTP package
+- Uses the GuzzleHTTP package
+- Requires PHP 7

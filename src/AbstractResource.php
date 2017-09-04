@@ -107,17 +107,17 @@ abstract class AbstractResource
     }
 
     /**
-     * @param string|null $key
+     * @param mixed|null $key
+     * @param mixed|null $default
      * @return array|mixed|null
      */
-    protected function get($key = null)
+    protected function get($key = null, $default = null)
     {
-        if($key === null)
-        {
-            return $this->data;
+        if ($key === null) {
+            return $this->data ?? $default;
         }
 
-        return isset($this->data[$key]) ? $this->data[$key] : null;
+        return $this->data[$key] ?? $default;
     }
 
     /**
