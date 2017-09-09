@@ -11,13 +11,15 @@ use Twitch\Object\Video;
 /**
  * Class BaseTwitch
  * @package Twitch
- * @version 1.0.6
+ * @version 1.1.4
  */
 class BaseTwitch extends Base
 {
 
     /**
-     * Gets a an array of Stream objects by Stream IDs. On or around 9/1/2017 Channel names are no longer supported.
+     * Gets a an array of Stream objects by Stream IDs or Logins. On or around 9/1/2017 Channel names are no longer supported.
+     * This function will translate from names to channel IDs, but only if the first argument is not a number. This will
+     * also add a minimum one second delay to prevent rate limiting.
      * Valid on API Version 5
      * @param array|string|int $param An array of streamer ID numbers. Twitch defines these as numbers but says to treat them as strings.
      * @return Stream[]
@@ -38,6 +40,13 @@ class BaseTwitch extends Base
         if(!is_array($param))
         {
             $param = array((string)$param);
+        }
+
+        if(!is_numeric($param[0])) {
+            $param = $this->getUserIDsv5($param);
+
+            // Let's stop for a second because rate limiting
+            sleep(1);
         }
 
         $params = implode(',', $param);
@@ -112,6 +121,26 @@ class BaseTwitch extends Base
         return array_map(function ($item) {
             return User::makeFromArray($item);
         }, $response['users']);
+    }
+
+    /**
+     * Gets an array of User IDs
+     * Valid on API Version 5
+     * This function will always use the latest API version in the event of future breaking changes
+     * @param array|string $users
+     * @return int[]
+     * @throws APIVersionException
+     * @throws GetException
+     * @since 1.1.3
+     */
+    function getUserIDsv5($users)
+    {
+        $return = array();
+        foreach ($this->getUsersv5($users) as $i) {
+            $return[] = $i->id();
+        }
+
+        return $return;
     }
 
     /**

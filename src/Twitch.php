@@ -14,12 +14,14 @@ use Twitch\Object\User;
  *
  * @package Twitch
  *
- * @version 1.0.6
+ * @version 1.1.4
  */
 class Twitch extends BaseTwitch
 {
     /**
-     * Gets a an array of Stream objects by Stream IDs. On or around 9/1/2017 Channel names are no longer supported.
+     * Gets a an array of Stream objects by Stream IDs or Logins. On or around 9/1/2017 Channel names are no longer supported.
+     * This function will translate from names to channel IDs, but only if the first argument is not a number. This will
+     * also add a minimum one second delay to prevent rate limiting.
      * Valid on API Version 5
      * This function will always use the latest API version in the event of future breaking changes
      * @param array|string|int $param An array of streamer ID numbers. Twitch defines these as numbers but says to treat them as strings.
@@ -63,12 +65,12 @@ class Twitch extends BaseTwitch
      */
     function getUserIDs($users)
     {
-        $return = array();
-        foreach ($this->getUsers($users) as $i) {
-            $return[] = $i->id();
+
+        if($this->_apiVersion != 5) {
+            throw new APIVersionException("getUsers() [which calls getUsersV5()] is only valid on API Version 5");
         }
 
-        return $return;
+        return $this->getUserIDsV5($users);
     }
 
     /**
