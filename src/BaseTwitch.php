@@ -17,7 +17,7 @@ class BaseTwitch extends Base
 {
 
     /**
-     * Gets a an array of Stream objects
+     * Gets a an array of Stream objects by Stream IDs. On or around 9/1/2017 Channel names are no longer supported.
      * Valid on API Version 5
      * @param array|string|int $param An array of streamer ID numbers. Twitch defines these as numbers but says to treat them as strings.
      * @return Stream[]
