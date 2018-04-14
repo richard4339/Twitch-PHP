@@ -92,17 +92,6 @@ class TwitchTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException \Twitch\Exceptions\GetException
-     * @deprecated 1.0.1
-     */
-    public function testGetStreamsNoStreamsV3()
-    {
-        $twitch = new Twitch('FAKE', 3);
-
-        $twitch->getStreamsV3([]);
-    }
-
-    /**
      * @since 1.0.1
      * @expectedException \Twitch\Exceptions\GetException
      */
@@ -127,6 +116,14 @@ class TwitchTest extends PHPUnit_Framework_TestCase
     public function testInvalidAPIVersion2()
     {
         new Twitch('FAKE', 2);
+    }
+
+    /**
+     * @expectedException \Twitch\Exceptions\APIVersionException
+     */
+    public function testInvalidAPIVersion3()
+    {
+        new Twitch('FAKE', 3);
     }
 
     /**

@@ -34,8 +34,7 @@ class Base
     protected $_apiURL = "https://api.twitch.tv/kraken/";
 
     /**
-     * Version 5 of the Twitch API is the current version as of May 20, 2017.
-     * Version 3 is still available until February 13, 2018
+     * Version 5 of the Twitch API will be deactivated by Twitch December 31st, 2018.
      *
      * @var int API Version, defaults to version 5
      * @since 1.0.0
@@ -143,7 +142,6 @@ class Base
      */
     private function _isValidAPIVersion($version) {
         switch ($version) {
-            case 3:
             case 5:
                 return true;
                 break;

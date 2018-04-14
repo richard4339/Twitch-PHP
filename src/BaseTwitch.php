@@ -11,7 +11,7 @@ use Twitch\Object\Video;
 /**
  * Class BaseTwitch
  * @package Twitch
- * @version 1.1.4
+ * @version 1.1.5
  */
 class BaseTwitch extends Base
 {
@@ -26,6 +26,7 @@ class BaseTwitch extends Base
      * @throws GetException
      * @throws APIVersionException
      * @since 1.0.0
+     * @deprecated 1.1.5
      */
     function getStreamsV5($param)
     {
@@ -61,42 +62,13 @@ class BaseTwitch extends Base
     }
 
     /**
-     * Gets a an array of Stream objects
-     * Valid on API Version 3
-     * @param string[] $param An array of streamer names
-     * @return Stream[]
-     * @throws GetException
-     * @throws APIVersionException
-     * @deprecated 1.0.0
-     */
-    function getStreamsV3($param)
-    {
-        if($this->_apiVersion != 3) {
-            throw new APIVersionException("getStreamsV3() is only valid on API Version 3");
-        }
-
-        if(count($param) < 1) {
-            throw new GetException('No streams provided');
-        }
-
-        $params = implode(',', $param);
-
-        $url = $this->_buildRequestString('streams', ['channel' => $params]);
-
-        $response = $this->request($url);
-
-        return array_map(function ($item) {
-            return Stream::makeFromArray($item);
-        }, $response['streams']);
-    }
-
-    /**
      * Gets an array of User objects
      * Valid on API Version 5
      * @param array|string $users
      * @return User[]
      * @throws APIVersionException
      * @throws GetException
+     * @deprecated 1.1.5
      */
     function getUsersV5($users) {
         if($this->_apiVersion != 5) {
@@ -132,6 +104,7 @@ class BaseTwitch extends Base
      * @throws APIVersionException
      * @throws GetException
      * @since 1.1.3
+     * @deprecated 1.1.5
      */
     function getUserIDsv5($users)
     {
@@ -150,6 +123,7 @@ class BaseTwitch extends Base
      * @return User
      * @throws APIVersionException
      * @throws GetException
+     * @deprecated 1.1.5
      */
     function getUserByIDV5($user) {
         if($this->_apiVersion != 5) {
@@ -181,6 +155,7 @@ class BaseTwitch extends Base
      * @throws GetException
      *
      * @todo Add support for language and sort options
+     * @deprecated 1.1.5
      */
     function getChannelVideosV5($channelID, $limit = null, $offset = null, $broadcastType = null, $language = null, $sort = null) {
         if($this->_apiVersion != 5) {
