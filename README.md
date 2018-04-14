@@ -21,3 +21,6 @@ Defaults to version 5 of the Twitch API which has breaking changes from version 
 ## Requirements
 - Uses the GuzzleHTTP package
 - Requires PHP 7
+
+## Changes
+- Beginning with version 2, only the "new Twitch API" will be supported.
